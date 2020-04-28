@@ -1,5 +1,5 @@
-import datastore from "nedb" // node嵌入式数据库
-import { resolve } from "path" // 路径
+import datastore from 'nedb' // node嵌入式数据库
+import { resolve } from 'path' // 路径
 
 const db = new datastore({
   filename: resolve(__dirname, './db'),

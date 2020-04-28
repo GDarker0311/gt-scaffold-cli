@@ -30,10 +30,14 @@
     "nedb": "^1.8.0",
     "ora": "^4.0.4",
     "rollup": "^2.7.2",
+    "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-typescript": "^1.0.1",
     "typescript": "^3.8.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/nedb": "^1.8.9",
+    "@types/cli-table": "^0.3.0"
+  },
   "keywords": [
     "gt-init",
     "gt-scaffold-cli"

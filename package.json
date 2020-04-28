@@ -29,14 +29,14 @@
     "ncp": "^2.0.0",
     "nedb": "^1.8.0",
     "ora": "^4.0.4",
-    "rollup": "^2.7.2",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-typescript": "^1.0.1",
     "typescript": "^3.8.3"
   },
   "devDependencies": {
     "@types/nedb": "^1.8.9",
-    "@types/cli-table": "^0.3.0"
+    "@types/cli-table": "^0.3.0",
+    "rollup": "^1.17.0",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-typescript": "^1.0.1"
   },
   "keywords": [
     "gt-init",

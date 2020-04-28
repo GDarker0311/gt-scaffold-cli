@@ -3,6 +3,7 @@ const { resolve } = require('path')
 const program = require('commander') // 命令行解析
 const commands = require(resolve(__dirname, '../dist/index.js'))
 const { version } = require(resolve(__dirname, '../package.json'))
+
 process.env.NODE_PATH = __dirname + '/../node_modules/'  // 定义脚手架的文件路径
 
 // 初始化

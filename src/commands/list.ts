@@ -1,4 +1,4 @@
-import DB from '../db/db' // 数据库
+import DB from '../nedb/db' // 数据库
 import listTable from '../lib/table' // unicode表格
 
 /**

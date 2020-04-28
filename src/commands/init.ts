@@ -1,5 +1,5 @@
 import { prompt } from 'inquirer' // 命令行交互
-import DB from '../db/db' // 数据库
+import DB from '../nedb/db' // 数据库
 import listTable from '../lib/table' // unicode表格
 import initiator from '../lib/initiator' // 发起创建
 

@@ -1,0 +1,35 @@
+{
+    "env": {
+        "commonjs": true,
+        "mocha": true,
+        "es6": true,
+        "shelljs": true,
+        "node": true
+    },
+    "extends": "@ctrip/eslint-config-flight",
+    "globals":{
+      "APPID": true
+    },
+    "rules": {
+        "strict": "error",
+        "no-unused-vars": ["warn", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+        "no-console": "off",
+        "indent": [
+            "warn",
+            2,
+            {"SwitchCase": 1}
+        ],
+        "linebreak-style": [
+            "warn",
+            "unix"
+        ],
+        "quotes": [
+            "warn",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "never"
+        ]
+    }
+}

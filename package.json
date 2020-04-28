@@ -1,0 +1,41 @@
+{
+  "name": "gt-scaffold-cli",
+  "version": "1.0.0",
+  "description": "gt（Gran Turismo ） is a scaffold for initiating new projects from a given template.",
+  "main": "index.js",
+  "author": "jianyuguo",
+  "license": "MIT",
+  "bin": {
+    "gt": "./bin/gt.js"
+  },
+  "scripts": {
+    "lint": "eslint ./",
+    "dev": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "cli-spinners": "^2.3.0",
+    "cli-table": "^0.3.1",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.20.3",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.1.0",
+    "ncp": "^2.0.0",
+    "nedb": "^1.8.0",
+    "ora": "^4.0.4",
+    "rollup": "^2.7.2",
+    "rollup-plugin-typescript": "^1.0.1",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "gt-init",
+    "gt-scaffold-cli"
+  ]
+}

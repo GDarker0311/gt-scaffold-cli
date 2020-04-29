@@ -1,6 +1,6 @@
 {
   "name": "gt-scaffold-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "gt（Gran Turismo ） is a scaffold for initiating new projects from a given template.",
   "main": "index.js",
   "author": "jianyuguo",

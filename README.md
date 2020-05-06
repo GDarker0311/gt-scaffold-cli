@@ -35,6 +35,13 @@ A *template* is a sample folder with many files. You could place a template to G
 └── rollup.config.js    # rollup 打包配置文件
 
 ```
+```
+Address:
+
+npmjs.com : `https://www.npmjs.com/package/gt-scaffold-cli`
+github.com : `https://github.com/GDarker0311/gt-scaffold-cli`
+```
+
 ## Usage
 Install **gt** globaly.
 ```bash

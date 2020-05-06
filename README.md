@@ -38,7 +38,13 @@ A *template* is a sample folder with many files. You could place a template to G
 ## Usage
 Install **gt** globaly.
 ```bash
-npm install gt-scaffold-cli -g
+`npm install gt-scaffold-cli -g`
+
+login:
+`npm adduser`
+
+publish
+`npm publish --access public`
 ```
 
 Check the `--help` command.

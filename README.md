@@ -59,6 +59,10 @@ Commands:
   delete|d       Delete a template
   init|i         Generate a new project
 ```
+architecture 
+- Img
+  
+  ![](./src/img/architecture.png)
 
 Just follow the FAQs and you will know how to use it.
 

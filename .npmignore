@@ -1,5 +1,3 @@
-## npm publish时 不忽略 server/ 目录下的 .npmrc/.gitignore 文件,以修复部分情况下默认npm仓库不是公司源的时候,自动install失败的问题
-
 !server/.npmrc
 !server/.gitignore
 docs/

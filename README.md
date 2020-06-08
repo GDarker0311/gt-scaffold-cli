@@ -97,6 +97,9 @@ Just follow the FAQs and you will know how to use it.
   
   ![](./src/img/init.gif)
 
+## author
+jianyuguo
+
 ## License
 MIT
 
